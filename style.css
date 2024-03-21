@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(43, 37, 37);
+}
+.main{
+    height:18%;
+    width:15%;
+    margin-bottom:3%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.toppart{
+    display:flex;
+    height:400px;
+}
+#phone{
+    height: 150px;
+    width: 453px;
+    z-index: -1;
+    right:290px;
+    position: absolute;
+    margin-left: 800px;  
+}
+#keyboard{
+    height: 200px;
+    width: 450px;
+    z-index:-1;
+    margin-left: 355px;  
+    position: absolute;
+    right:300px;
+    top: 185px;
+}
+.topleft{
+    background-color: rgb(231, 81, 11,0.7);
+    color:white;
+    height: 400px;
+    width:400px;
+    padding:0px;
+}
+.hey{
+    font-size:30px;
+    color: rgba(248, 244, 242);
+}
+.topright{
+    height: 400px;
+    width: 200px;
+}
+#motion{
+    color: white;
+    top: 98px;
+    right:300px;
+    z-index:1;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+#logo1{
+    border-color: white;
+    border: 5px solid;
+    height: 80px;
+    width: 50px;
+    top: 35px;
+    right:300px;
+    position: absolute;
+}
+#logo2{
+    border-color: white;
+    border: 5px solid;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 60px;
+    right:325px;
+}
+h1{
+    font-size: 30px;
+    padding:60px 25px 0px 50px;
+}
+#heybox{
+    margin-top: 40px;
+    border: 4px solid;
+    border-color: white;
+    text-align: center;
+    height: 70px;
+    width: 100px;
+    margin-left: 50px;
+}
+.design{
+    position: absolute;
+}
+.topright1{
+    background-color: rgb(231, 198, 11,0.7);
+    color:white;
+    height: 150px;
+    width:400px;
+    background-image:url("");
+}
+.topright2{
+    background-color: rgb(245, 241, 241,0.7);
+    height: 250px;
+    width:400px;
+    background-image:url("");
+}
+.bottompart{
+    background-color: white;
+}
+.middle{
+    background-color:rgb(80, 137, 139);
+    color:white;
+    height: 180px;
+    padding-left: 80px;
+    padding-top:20px;
+    width:629px;
+}
+span{
+    font-size: 35PX;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(56, 55, 55);
+    font-style: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.middlebottom{
+    width:700px;
+    height:150px;
+    display: flex;
+}
+#middleleft{
+    width:200px;
+    height:150px;
+}
+#middleright{
+    margin-top: 3px;
+    margin-left: 80px;
+    margin-right: 100px;
+    height:150px;
+    font-size: 12px;
+    width:500px;
+}
+.bottompart{
+    width: 710px;
+    height:300px;
+    position: relative;
+    top: -25px;
+}
+#bottomfheading{
+    padding-left: 80px;
+    color:rgb(231, 81, 11);
+    font-size: 30PX;
+    padding-top:40px;
+}
+#bottomfpara{
+    padding-left: 80px;
+    font-size:12px;
+}
+.bottomflex{
+    display: flex;
+    width:600;
+    height:200px;
+}
+.bottomflexright{
+    height:100px;
+    width:400px;
+
+}
+#bottomlheading{
+    padding-left: 80px;
+    color:rgb(25, 106, 109);
+    font-size: 30PX;
+}
+#bottomlpara{
+ padding-left: 80px;
+ font-size:12px;
+
+}
+#bottomflexleft{
+ height:100px;
+  background-color: rgb(243, 200, 8);
+  padding-top:20px;
+  text-align:center;
+  margin-top: 39px;
+  margin-left: 60px;
+  width: 250px;
+  font-size:15px;
+}
